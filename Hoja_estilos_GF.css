@@ -57,6 +57,13 @@ main{
     margin-top: 10px;
     font-size:1.1rem;
 }
-.Historia_card:nth-child(even) .Historia_card{
+.Historia_I:nth-child(even) .Historia_card{
     flex-direction: row-reverse;
+}
+.Historia_I{
+    margin-bottom: 25px;
+}
+.Historia_I p{
+    margin-top: 10px;
+    font-size:1.1rem;
 }
