@@ -67,10 +67,3 @@ main{
     margin-top: 10px;
     font-size:1.1rem;
 }
-.header{
-    background-color: var(--fondo-hr);
-    color: var(--color-letra-hr);
-    text-align: var(--posicion-t);
-    font-size: 3rem;
-    font-family: var(--fuente-principal);
-}
