@@ -1,0 +1,62 @@
+:root{
+    --fuente-principal: Arial, Helvetica, sans-serif;
+    /*color de letra de la cabecera y color del fondo de la cabecera*/
+    --color-letra-hr: rgb(255, 255, 255);
+    --fondo-hr: hsl(0, 0%, 0%);
+    /*posición párrafos*/
+    --posicion-p: justify;
+    /*posición títulos*/
+    --posicion-t: center;
+}
+
+header{
+    background-color: var(--fondo-hr);
+    color: var(--color-letra-hr);
+    text-align: var(--posicion-t);
+    font-size: 3rem;
+    font-family: var(--fuente-principal);
+}
+
+main{
+    text-align: var(--posicion-p);
+    font-family: var(--fuente-principal);
+}
+
+.Historia{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.Historia_card{
+    display:flex;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow:hidden;
+
+   
+}
+.Historia_texto{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Historia_minitit{
+    font-weight: bold;
+    color: #ff6a5c;
+    font-size:1.2rem;
+}
+.Historia_card img{
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+.Historia p{
+    margin-top: 10px;
+    font-size:1.1rem;
+}
+.Historia_card:nth-child(even) .Historia_card{
+    flex-direction: row-reverse;
+}
