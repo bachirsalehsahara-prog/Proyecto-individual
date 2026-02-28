@@ -27,6 +27,7 @@ main{
     padding: 30px;
     border-radius: 10px;
     margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .Historia_card{
     display:flex;
@@ -34,8 +35,7 @@ main{
     background-color: #fff;
     border-radius: 15px;
     overflow:hidden;
-
-   
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 .Historia_texto{
     padding: 20px;
