@@ -63,6 +63,50 @@ header{
     font-family: var(--fuente-principal);
 }
 
+.pags{
+    display:flex; 
+    flex-wrap: nowrap; 
+    gap: 2rem;
+    align-items: end;
+}
+
+.pag{
+    position: relative; 
+    font-size: 1rem;
+    color: var(--color-letra-p);
+    padding: 0.25em;
+    text-decoration: none;
+    font-family: var(--fuente-principal);
+}
+
+.pag.activo{
+    color: var(--color-letra-hr);
+
+}
+
+.pag::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-letra-t);
+    transition: width 0.25s ease;
+}
+
+.pag:hover::after {
+    width: 100%;
+}
+
+.pag.activo::after {
+    width: 100%;
+}
+
+.pag:hover{
+    color: var(--color-letra-hr);
+}
+
 main{
     text-align: var(--posicion-p);
     font-family: var(--fuente-principal);
@@ -141,3 +185,12 @@ main{
 .Actos_card:hover{
     transform: translateY(-8px);
 }
+
+h1 {
+    background-image: url('img/fondo_titulo.jpg');
+    padding: 40px 20px;
+    text-align: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat      
+} 
