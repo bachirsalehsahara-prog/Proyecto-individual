@@ -33,7 +33,9 @@
         });
     });
 
-    const btn= document.getElementById('btn-votar');
+    const btn= document.getElementById('votar');
+    const contador = document.getElementById('contador');
+    let votos = 0;
     btn.addEventListener('click', () => {
         votos++;
         contador.textContent = votos;
