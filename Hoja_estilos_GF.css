@@ -263,6 +263,19 @@ h1 {
     border: none !important;
     cursor: default;
 }
+#votar {
+    background-color: #8b1538;
+    color: #ffffff;
+    border: 2px solid #8b1538;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#votar:hover {
+    background-color: #ffffff;
+    color: #8b1538;
+}
 
 footer{
     background-color: var(--color-letra-hr);
