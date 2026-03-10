@@ -11,7 +11,7 @@
         });
         huecos.forEach(hueco => {
             hueco.addEventListener('dragover', (e) => {
-                e.preventDefuault();
+                e.preventDefault();
             });
         
         hueco.addEventListener('drop', (e) => {
