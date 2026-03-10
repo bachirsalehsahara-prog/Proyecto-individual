@@ -32,4 +32,10 @@
             }
         });
     });
+
+    const btn= document.getElementById('btn-votar');
+    btn.addEventListener('click', () => {
+        votos++;
+        contador.textContent = votos;
+    });
     
