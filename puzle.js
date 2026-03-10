@@ -9,3 +9,10 @@
                 piezaSeleccionada = pieza;
             });
         });
+        huecos.forEach(hueco => {
+            hueco.addEventListener('dragover', (e) => {
+                e.preventDefuault();
+            });
+        });
+        hueco.addEventListener('drop', (e) => {
+            e.preventDefault();
