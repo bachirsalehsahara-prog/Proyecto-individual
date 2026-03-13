@@ -111,6 +111,9 @@ main{
     text-align: var(--posicion-p);
     font-family: var(--fuente-principal);
 }
+h1{
+    background-image: url(img/fondo_titulo.jpg);
+}
 .Historia{
     background-color: #fff;
     padding: 30px;
